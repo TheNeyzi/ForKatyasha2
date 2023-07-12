@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #E04E4E;
+}
+
+main {
+    max-width: 99vw;
+    height: 870px;
+    background: #E04E4E;
+    font-size: 21px;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    width: 80px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+    position: absolute;
+    z-index: 2;
+    padding-left: 25px;
+    translate: 0px -120px;
+    align-items: center;
+}
+
+.img {
+    z-index: 1;
+    width: 100vw;
+}
+
+nav ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-weight: 800;
+}
+
+nav ul h2 a {
+    color: #FFFFFF;
+    font-family: 'Poppins';
+    font-weight: 800;
+}
+
+h2 {
+    width: 130px;
+}
+
+.main-content h1 {
+    display: flex;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 800;
+    line-height: 100%;
+    font-size: 30px;
+    justify-content: center;
+    padding-left: 14px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+
+.main-content p {
+    display: flex;
+    font-family: 'Anonymous Pro', monospace;
+    color: #FFFFFF;
+    font-size: 17px;
+    border: solid 1px red;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+.hr {
+    translate: 40px 20px;
+}
+
+.eye {
+    position: absolute;
+    width: 201px;
+    height: 145px;
+    left: 7px;
+    top: 451px;
+}
+
+.eye-right {
+    display: flex;
+    font-family: 'Anonymous Pro', monospace;
+    width: 150px;
+    font-size: 21px;
+    translate: 220px 60px;
+    color: #FFFFFF;
+}
+
+.face {
+    position: absolute;
+    width: 192px;
+    height: 171px;
+    left: 190px;
+    top: 627px;
+}
+
+.face-left {
+    display: flex;
+    font-family: 'Anonymous Pro', monospace;
+    width: 150px;
+    font-size: 17px;
+    translate: 20px 120px;
+    color: #FFFFFF;
+}
+
+.active {
+    display: flex;
+    border-bottom: solid 3px #FFFFFF;
+    border-radius: 3px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #353535;
+    width: 99.9vw;
+    height: 170px;
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
+}
+
+.instagram {
+    translate: 175px 10px;
+}
+
+.insta {
+    display: flex;
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+    translate: 95px 60px;
+    font-size: 17px;
+    text-align: center;
+    font-family: 'Anonymous Pro', monospace;
+    text-decoration: underline;
+    color: #FFFFFF;
+}
+
+.bf {
+    display: flex;
+    height: 20px;
+    font-size: 17px;
+    font-family: 'Anonymous Pro', monospace;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    text-align: center;
+    translate: -75px 97px;
+    color: #FFFFFF;
+    border-top: solid 2px #FFFFFF;
+    border-radius: 3px;
+    padding-top: 13px;
+}

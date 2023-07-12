@@ -9,7 +9,7 @@ body {
 
 main {
     max-width: 99vw;
-    height: 870px;
+    height: 1200;
     background: #E04E4E;
     font-size: 21px;
 }
@@ -70,7 +70,6 @@ h2 {
     font-family: 'Anonymous Pro', monospace;
     color: #FFFFFF;
     font-size: 17px;
-    border: solid 1px red;
     padding-left: 15px;
     padding-top: 15px;
 }

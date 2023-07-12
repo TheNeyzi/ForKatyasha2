@@ -64,6 +64,14 @@ h2 {
     color: #FFFFFF;
 }
 
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
 .main-content p {
     display: flex;
     font-family: 'Anonymous Pro', monospace;

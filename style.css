@@ -9,7 +9,7 @@ body {
 
 main {
     max-width: 99vw;
-    height: 1200;
+    height: 1200px;
     background: #E04E4E;
     font-size: 21px;
 }
@@ -58,25 +58,16 @@ h2 {
     font-family: 'Montserrat Alternates', sans-serif;
     font-weight: 800;
     line-height: 100%;
-    font-size: 30px;
-    justify-content: center;
+    font-size: 35px;
     padding-left: 14px;
     letter-spacing: -0.02em;
     color: #FFFFFF;
-}
-
-.main-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 .main-content p {
     display: flex;
     font-family: 'Anonymous Pro', monospace;
     color: #FFFFFF;
-    font-size: 17px;
     padding-left: 15px;
     padding-top: 15px;
 }
@@ -98,7 +89,7 @@ h2 {
     font-family: 'Anonymous Pro', monospace;
     width: 150px;
     font-size: 21px;
-    translate: 220px 60px;
+    translate: 210px 60px;
     color: #FFFFFF;
 }
 
@@ -106,7 +97,7 @@ h2 {
     position: absolute;
     width: 192px;
     height: 171px;
-    left: 190px;
+    left: 169px;
     top: 627px;
 }
 
@@ -125,6 +116,23 @@ h2 {
     border-radius: 3px;
 }
 
+.modelka {
+    position: absolute;
+    width: 192px;
+    height: 169px;
+    left: 7px;
+    top: 820px;
+}
+
+.modelka-right {
+    display: flex;
+    color: #FFFFFF;
+    translate: 209px 190px;
+    font-family: 'Anonymous Pro', monospace;
+    width: 150px;
+    font-size: 17px;
+}
+
 footer {
     display: flex;
     justify-content: center;
@@ -137,6 +145,10 @@ footer {
 
 .instagram {
     translate: 175px 10px;
+}
+
+.link {
+    color: #FFFFFF;
 }
 
 .insta {
